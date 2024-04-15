@@ -30,6 +30,10 @@ h1 {
   color: var(--primary-color);
 }
 
+.justified {
+  text-align: justify;
+}
+
 .secondary-title {
   font-size: 4rem;
   font-weight: 700;
@@ -52,7 +56,7 @@ p,
 
 p:not(:last-of-type),
 .p:not(:last-of-type) {
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .btn {
